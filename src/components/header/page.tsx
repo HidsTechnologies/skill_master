@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import React, { useEffect } from "react";
 import Link from "next/link";
@@ -9,15 +9,14 @@ const userNavigation = [
   { name: "Sign out", href: "/logout" },
 ];
 
+import Courses from "@/db/courses.json";
+
 const classNames = (...classes: any) => classes.filter(Boolean).join(" ");
 
 function Appbar() {
   const [enabled, setEnabled] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const textColor = isScrolled ? "text-gray-800  " : "text-white";
-
-
-  const skillProgrammes = [{title:"Embedded System Design",link:"/skills/esd"}, {title:"EV Technology",link:"/skills/evtech"}, {title:"Full Stack",link:"/skills/fullstack"}, {title:"IIoT",link:"skills/iiot"}, {title:"Industrial Automation",link:"skills/industrial_automation"}, {title:"Machine Learning",link:"skills/machine_learning"}, {title:"PLC SCADA",link:"/link/plc_scada"}, {title:"Python",link:"/skills/python"}, {title:"Remote Engineering and Robotics",link:"/skills/rer"}];
 
   useEffect(() => {
     const onScroll = () => {
@@ -36,8 +35,9 @@ function Appbar() {
     <>
       <header className="fixed z-50 w-screen">
         <nav
-          className={`${isScrolled ? `bg-white  ` : `bg-gray-950 bg-opacity-70 text-white`
-            } transform duration-200 border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800`}
+          className={`${
+            isScrolled ? `bg-white  ` : `bg-gray-950 bg-opacity-70 text-white`
+          } transform duration-200 border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800`}
         >
           <div className="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto">
             <a href="#" className="flex items-center">
@@ -46,12 +46,12 @@ function Appbar() {
               </span>
             </a>
             <div className="flex items-center lg:order-2">
-              <a
+              {/* <a
                 href="/login"
                 className="border-2  dark:text-white  focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
               >
                 Log in
-              </a>
+              </a> */}
               <button
                 data-collapse-toggle="mobile-menu-2"
                 type="button"
@@ -90,18 +90,24 @@ function Appbar() {
               </button>
             </div>
             <div
-              className={`${enabled ? `` : `hidden`
-                } justify-between items-center w-full lg:flex lg:w-auto lg:order-1`}
+              className={`${
+                enabled ? `` : `hidden`
+              } justify-between items-center w-full lg:flex lg:w-auto lg:order-1`}
               id="mobile-menu-2"
             >
               <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-                <li className={`group cursor-pointer block py-5 pl-3 pr-4  border-b border-gray-100 hover:bg-gray-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ${textColor} `}>
+                <li
+                  className={`group cursor-pointer block py-5 pl-3 pr-4  border-b border-gray-100 hover:bg-gray-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ${textColor} `}
+                >
                   Skill Programmes
                   <div className="relative invisible group-hover:visible">
-                    <ul className="flex flex-col absolute px-5 py-2 font-normal w-max border-2 bg-white text-black rounded-b-lg">
-                      {skillProgrammes.map((skills, i) => {
+                    <ul className="flex flex-col absolute top-0 px-2 py-2 font-normal w-max border-2 bg-white text-black rounded-b-lg">
+                      {Courses.map((skills, i) => {
                         return (
-                          <li key={i}>
+                          <li
+                            key={i}
+                            className="py-2 px-3 hover:bg-blue-500 hover:text-white rounded-lg"
+                          >
                             <Link href={skills.link}>{skills.title}</Link>
                           </li>
                         );
@@ -109,13 +115,19 @@ function Appbar() {
                     </ul>
                   </div>
                 </li>
-                <li className={`cursor-pointer block py-5 pl-3 pr-4  border-b border-gray-100 hover:bg-gray-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ${textColor} `}>
+                <li
+                  className={`cursor-pointer block py-5 pl-3 pr-4  border-b border-gray-100 hover:bg-gray-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ${textColor} `}
+                >
                   Workshops
                 </li>
-                <li className={`cursor-pointer block py-5 pl-3 pr-4  border-b border-gray-100 hover:bg-gray-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ${textColor} `}>
+                <li
+                  className={`cursor-pointer block py-5 pl-3 pr-4  border-b border-gray-100 hover:bg-gray-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ${textColor} `}
+                >
                   About Us
                 </li>
-                <li className={`cursor-pointer block py-5 pl-3 pr-4  border-b border-gray-100 hover:bg-gray-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ${textColor} `}>
+                <li
+                  className={`cursor-pointer block py-5 pl-3 pr-4  border-b border-gray-100 hover:bg-gray-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ${textColor} `}
+                >
                   Contact Us
                 </li>
               </ul>
@@ -125,6 +137,6 @@ function Appbar() {
       </header>
     </>
   );
-};
+}
 
 export default Appbar;

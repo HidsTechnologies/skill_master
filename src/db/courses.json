@@ -1,0 +1,23 @@
+[
+  { "id": "esd", "title": "Embedded System Design", "link": "/courses/esd" },
+  { "id": "evtech", "title": "EV Technology", "link": "/courses/evtech" },
+  { "id": "fullstack", "title": "Full Stack", "link": "/courses/fullstack" },
+  { "id": "iiot", "title": "IIoT", "link": "/courses/iiot" },
+  {
+    "id": "industrial_automation",
+    "title": "Industrial Automation",
+    "link": "/courses/industrial_automation"
+  },
+  {
+    "id": "machine_learning",
+    "title": "Machine Learning",
+    "link": "/courses/machine_learning"
+  },
+  { "id": "plc_scada", "title": "PLC SCADA", "link": "/courses/plc_scada" },
+  { "id": "python", "title": "Python", "link": "/courses/python" },
+  {
+    "id": "rer",
+    "title": "Remote Engineering and Robotics",
+    "link": "/courses/rer"
+  }
+]
