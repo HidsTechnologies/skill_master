@@ -97,6 +97,8 @@ export default function ReviewSection() {
                       alt="review"
                       src="https://www.filepicker.io/api/file/RL7wlWlR7SUzKoIVPOxO"
                       className="rounded-full h-min mt-5"
+                      width={35}
+                      height={35}
                     />
                     <div className="flex flex-col">
                       <p className="text-lg font-serif font-bold mt-4 ml-2">

@@ -14,7 +14,13 @@ export default function FeatureSection() {
         <div className="grid xl:grid-cols-4 lg:grid-cols-2 gap-5 grid-cols-1 justify-center items-center">
           <div className="flex flex-col border-2 justify-center items-center p-10 max-w-xs mt-40">
             <div className="rounded-full bg-orange-500 p-5 w-15">
-              <Image src="/learning.png" alt="learning" className="w-12" />
+              <Image
+                src="/learning.png"
+                alt="learning"
+                className="w-12"
+                width={500}
+                height={500}
+              />
             </div>
             <h1 className="text-2xl font-bold">Programmes</h1>
             <p className="text-center mt-5">
@@ -25,7 +31,13 @@ export default function FeatureSection() {
           </div>
           <div className="flex flex-col border-2 justify-center items-center p-10 max-w-xs">
             <div className="rounded-full bg-orange-500 p-5 w-15">
-              <Image alt="award" src="/award.png" className="w-12" />
+              <Image
+                alt="award"
+                src="/award.png"
+                className="w-12"
+                width={500}
+                height={500}
+              />
             </div>
             <h1 className="text-2xl font-bold">Results</h1>
             <p className="text-center mt-5">
@@ -36,7 +48,13 @@ export default function FeatureSection() {
           </div>
           <div className="flex flex-col border-2 justify-center items-center p-10 max-w-xs mt-40">
             <div className="rounded-full bg-orange-500 p-5 w-15">
-              <Image alt="award" src="/coach.png" className="w-12" />
+              <Image
+                alt="award"
+                src="/coach.png"
+                className="w-12"
+                width={500}
+                height={500}
+              />
             </div>
             <h1 className="text-2xl font-bold">Coaching</h1>
             <p className="text-center mt-5">
@@ -47,7 +65,13 @@ export default function FeatureSection() {
           </div>
           <div className="flex flex-col border-2 justify-center items-center p-10 max-w-xs">
             <div className="rounded-full bg-orange-500 p-5 w-15">
-              <Image alt="award" src="/calendar.png" className="w-12" />
+              <Image
+                alt="award"
+                src="/calendar.png"
+                className="w-12"
+                width={500}
+                height={500}
+              />
             </div>
             <h1 className="text-2xl font-bold">Events</h1>
             <p className="text-center mt-5">
