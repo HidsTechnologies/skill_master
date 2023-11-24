@@ -81,6 +81,8 @@ export default function ReviewSection() {
       <div className="group max-w-4xl w-full h-60 border-2 mt-5 rounded-md shadow-md">
         <div className="w-full h-full p-10 relative">
           {reviews.map((currreview, i) => {
+            var yellow_star=new Array(currreview.stars).fill(0);
+            var black_star=new Array(5-currreview.stars).fill(0);
             return (
               <div
                 className={`${
@@ -110,11 +112,16 @@ export default function ReviewSection() {
                     </div>
                   </div>
                   <div className="flex">
-                    <StarIcon className="w-6 text-yellow-400" />
-                    <StarIcon className="w-6 text-yellow-400" />
-                    <StarIcon className="w-6 text-yellow-400" />
-                    <StarIcon className="w-6 " />
-                    <StarIcon className="w-6" />
+                    {yellow_star.map((s,i)=>{
+                      return(
+                        <StarIcon key={i} className="w-6 text-yellow-400"/>
+                      );
+                    })}
+                    {black_star.map((s,i)=>{
+                      return(
+                        <StarIcon key={i} className="w-6"/>
+                      );
+                    })}
                   </div>
                 </div>
               </div>

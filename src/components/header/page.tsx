@@ -40,11 +40,11 @@ function Appbar() {
           } transform duration-200 border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800`}
         >
           <div className="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto">
-            <a href="#" className="flex items-center">
+            <Link href="/" className="flex items-center">
               <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
                 Skill Master
               </span>
-            </a>
+            </Link>
             <div className="flex items-center lg:order-2">
               {/* <a
                 href="/login"

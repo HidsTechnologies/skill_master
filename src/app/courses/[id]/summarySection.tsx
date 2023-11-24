@@ -3,7 +3,7 @@ export default function SummarySection() {
     <div className="flex flex-col w-full justify-center items-center p-10">
       <div className="flex max-w-7xl w-full justify-center items-center p-10">
         <div className="flex">
-          <div className="grid grid-cols-2 w-full gap-10">
+          <div className="grid lg:grid-cols-2 grid-cols-1 w-full xl:gap-60  gap-10">
             <div className="flex flex-col">
               <iframe
                 className="max-w-xl w-full h-74"
@@ -40,7 +40,7 @@ export default function SummarySection() {
                 <li>Python Language programming </li>
               </ul>
             </div>
-            <div className="flex flex-col gap-y-5 pl-40 w-max">
+            <div className="flex flex-col gap-y-5 w-max">
               <h1 className="font-bold text-2xl">Summary</h1>
               <h1 className="text-lg text-gray-600 font-semibold font-mono mt-5">
                 Course Code :

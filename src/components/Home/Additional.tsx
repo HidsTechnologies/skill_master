@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Additional() {
   return (
     <div className="flex w-full justify-center items-center py-20 mt-10">
-      <div className="flex max-w-7xl w-full justify-between">
+      <div className="flex max-w-7xl w-full lg:justify-between lg:flex-row flex-col justify-center">
         <div>
           <h1 className="text-3xl font-bold">Experts to Help You Cross</h1>
           <h1 className="text-3xl font-bold">Every Hurdle</h1>
