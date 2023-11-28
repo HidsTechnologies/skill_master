@@ -35,8 +35,8 @@ export default function SummarySection(props:any) {
               <h1 className="font-bold text-2xl mb-5">Summary</h1>
               {Course.summary?.map((item:Summary, i:any) => {
                 return (
-                  <div className="flex">
-                    <h1 className="text-lg text-gray-600 font-semibold font-mono" key={i}>{item.title}: </h1><h1>{item.value}</h1>
+                  <div className="flex" key={i}>
+                    <h1 className="text-lg text-gray-600 font-semibold font-mono">{item.title}: </h1><h1>{item.value}</h1>
                   </div>
                 );
               })}
