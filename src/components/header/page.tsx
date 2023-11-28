@@ -35,9 +35,8 @@ function Appbar() {
     <>
       <header className="fixed z-50 w-screen">
         <nav
-          className={`${
-            isScrolled ? `bg-white  ` : `bg-gray-950 bg-opacity-70 text-white`
-          } transform duration-200 border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800`}
+          className={`${isScrolled ? `bg-white  ` : `bg-gray-950 bg-opacity-70 text-white`
+            } transform duration-200 border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800`}
         >
           <div className="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto">
             <Link href="/" className="flex items-center">
@@ -90,9 +89,8 @@ function Appbar() {
               </button>
             </div>
             <div
-              className={`${
-                enabled ? `` : `hidden`
-              } justify-between items-center w-full lg:flex lg:w-auto lg:order-1`}
+              className={`${enabled ? `` : `hidden`
+                } justify-between items-center w-full lg:flex lg:w-auto lg:order-1`}
               id="mobile-menu-2"
             >
               <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
@@ -104,12 +102,14 @@ function Appbar() {
                     <ul className="flex flex-col absolute top-0 px-2 py-2 font-normal w-max border-2 bg-white text-black rounded-b-lg">
                       {Courses.map((skills, i) => {
                         return (
-                          <li
-                            key={i}
-                            className="py-2 px-3 hover:bg-blue-500 hover:text-white rounded-lg"
-                          >
-                            <Link href={skills.link}>{skills.title}</Link>
-                          </li>
+                          <Link href={skills.link}>
+                            <li
+                              key={i}
+                              className="py-2 px-3 hover:bg-blue-500 hover:text-white rounded-lg"
+                            >
+                              {skills.title}
+                            </li>
+                          </Link>
                         );
                       })}
                     </ul>
