@@ -1,8 +1,12 @@
-export default function SummarySection() {
+import { Assessment, Course, Summary } from "@/types/courses";
+
+export default function SummarySection(props:any) {
+  const {Course}=props;
+  // console.log(Course);
   return (
     <div className="flex flex-col w-full justify-center items-center p-10">
-      <div className="flex max-w-7xl w-full justify-center items-center p-10">
-        <div className="flex">
+      <div className="flex flex-col max-w-7xl w-full p-10">
+        <div className="flex mb-10">
           <div className="grid lg:grid-cols-2 grid-cols-1 w-full xl:gap-60  gap-10">
             <div className="flex flex-col">
               <iframe
@@ -19,69 +23,58 @@ export default function SummarySection() {
                 COURSE SYLLABUS:
               </h1>
               <ul className="list-decimal ml-10">
-                <li>C and Embedded C language programming</li>
-                <li>
-                  Architecture of microcontroller like Intel MCS-51 or 8051, ARM
-                  7TDMI core & Cortex M3, Microchip PIC16/PIC18 and their
-                  assembly language programming
-                </li>
-                <li>PCB design and PCB fabrication process </li>
-                <li>Operating System fundamentals </li>
-                <li>
-                  Details of RTOS internals, multi-tasking, task management,
-                  task scheduling, task communication and synchronization{" "}
-                </li>
-                <li>Linux device driver development </li>
-                <li>
-                  Protocol based micro-controller programming. Protocols like
-                  RS-232, SPI, CAN, USB, Ethernet, Zigbee, Bluetooth, I2C,
-                  MODBUS etc.{" "}
-                </li>
-                <li>Python Language programming </li>
+                {Course.syllabus?.map((item:string, i:any) => {
+                  // console.log(item);
+                  return (
+                    <li key={i}>{item}</li>
+                  );
+                })}
               </ul>
             </div>
             <div className="flex flex-col gap-y-5 w-max">
-              <h1 className="font-bold text-2xl">Summary</h1>
-              <h1 className="text-lg text-gray-600 font-semibold font-mono mt-5">
-                Course Code :
-              </h1>
-              <h1 className="text-lg text-gray-600 font-semibold font-mono">
-                Course Name :
-              </h1>
-              <h1 className="text-lg text-gray-600 font-semibold font-mono">
-                Coordinating Unit :
-              </h1>
-              <h1 className="text-lg text-gray-600 font-semibold font-mono">
-                Term :
-              </h1>
-              <h1 className="text-lg text-gray-600 font-semibold font-mono">
-                Level :
-              </h1>
-              <h1 className="text-lg text-gray-600 font-semibold font-mono">
-                Location/s :
-              </h1>
-              <h1 className="text-lg text-gray-600 font-semibold font-mono">
-                Units :
-              </h1>
-              <h1 className="text-lg text-gray-600 font-semibold font-mono">
-                Qualification :
-              </h1>
-              <h1 className="text-lg text-gray-600 font-semibold font-mono">
-                Assumed Knowledge :
-              </h1>
-              <h1 className="text-lg text-gray-600 font-semibold font-mono">
-                Course Description :
-              </h1>
-              <h1 className="text-lg text-gray-600 font-semibold font-mono">
-                Course Staff :
-              </h1>
-              <h1 className="text-lg text-gray-600 font-semibold font-mono">
-                Course Timetable :
-              </h1>
+              <h1 className="font-bold text-2xl mb-5">Summary</h1>
+              {Course.summary?.map((item:Summary, i:any) => {
+                return (
+                  <div className="flex">
+                    <h1 className="text-lg text-gray-600 font-semibold font-mono" key={i}>{item.title}: </h1><h1>{item.value}</h1>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
-        <div className="flex flex-col"></div>
+        <div className="flex flex-col gap-y-2">
+          <h1 className="text-2xl font-bold">Syllabus</h1>
+          <ul className="list-decimal ml-10">
+            {Course.syllabus.map((item:string, i:any) => {
+              return (
+                <li key={i}>{item}</li>
+              );
+            })}
+          </ul>
+          <h1 className="text-2xl font-bold">Learning Objective</h1>
+          <h1 className="ml-5">{Course.learningObjective}</h1>
+          <h1 className="text-2xl font-bold">Assessment</h1>
+          <h1 className="ml-5">{Course.assessment.title}</h1>
+          <ul className="list-decimal ml-10">
+            {Course.assessment.points.map((item:string, i:any) => {
+              return (
+                <li key={i}>{item}</li>
+              );
+            })}
+          </ul>
+          <h1 className="text-2xl font-bold">Certification</h1>
+          <h1 className="ml-5">{Course.certification}</h1>
+          <h1 className="text-2xl font-bold">Trainer Profile</h1>
+          <h1 className="ml-5">{Course.trainerProfile.title}</h1>
+          <ul className="list-decimal ml-10">
+            {Course.trainerProfile.points.map((item:string, i:any) => {
+              return (
+                <li key={i}>{item}</li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
     </div>
   );
