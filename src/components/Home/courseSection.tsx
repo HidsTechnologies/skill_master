@@ -20,14 +20,15 @@ export default function CourseSection() {
                 <h1 className="text-3xl font-extrabold text-teal-600 font-serif">Skill Master is a training platform for professionals.</h1>
                 <h1 className=" flex text-xl mx-10 justify-center items-center">Learn new Industrial skills and upskill in your career with Skill Master courses, that provide you with the best education.</h1>
                 <div className="flex justify-center w-full items-center mt-10">
-                    <div className="flex max-w-5xl w-ful">
+                    <div className="flex px-20 w-full">
                         <div className="flex flex-col w-full h-full transition-all duration-500 gap-y-10">
                             {Courses.map((skill, i) => {
                                 return (
                                     (i & 1) ?
                                         (<Link href={skill.link}>
-                                            <div className="flex w-full px-10 py-10 gap-x-5 hover:scale-110 transition-all duration-500 rounded-2xl border-2 bg-gray-100">
-                                                <div className="flex h-full justify-center item-center">
+                                            <div className="flex w-full px-10 py-10 gap-x-5 rounded-2xl border-2 bg-gray-100">
+                                                <div className="flex flex-col h-full justify-center">
+                                                    <h1 className="text-2xl font-bold mb-3">{skill.title}</h1>
                                                     <p>{skill.description}</p>
                                                 </div>
                                                 <img src={skill.image} className="h-50 w-80" />
@@ -35,9 +36,10 @@ export default function CourseSection() {
                                         </Link>)
                                         :
                                         (<Link href={skill.link}>
-                                            <div className="flex w-full px-10 py-10 gap-x-5 hover:scale-110 transition-all duration-500 rounded-2xl border-2 bg-gray-100">
+                                            <div className="flex w-full px-10 py-10 gap-x-5 rounded-2xl border-2 bg-gray-100">
                                                 <img src={skill.image} className="h-50 w-80" />
-                                                <div className="flex h-full justify-center items-center">
+                                                <div className="flex flex-col h-full justify-end">
+                                                    <h1 className="text-2xl font-bold mb-3">{skill.title}</h1>
                                                     <p>{skill.description}</p>
                                                 </div>
                                             </div>
