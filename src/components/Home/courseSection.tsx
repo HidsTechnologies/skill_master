@@ -24,7 +24,7 @@ export default function CourseSection() {
                         <div className="grid grid-cols-2 gap-5 max-w-7xl h-full transition-all duration-500 gap-y-10">
                             {Courses.map((skill, i) => {
                                 return (
-                                    <div className="flex w-full px-10 py-10 gap-x-5 rounded-2xl border-2 bg-gray-100">
+                                    <div key={i} className="flex w-full px-10 py-10 gap-x-5 rounded-2xl border-2 bg-gray-100">
                                         <img src={skill.image} className="h-32 w-40" />
                                         <div className="flex flex-col h-full justify-end">
                                             <h1 className="text-2xl font-bold mb-3">{skill.title}</h1>
