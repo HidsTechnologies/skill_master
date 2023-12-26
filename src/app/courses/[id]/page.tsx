@@ -3,12 +3,13 @@ import Footer from "@/components/footer/page";
 import Header from "@/components/header/page";
 import Courses from "@/db/courses.json";
 import { Course } from "@/types/courses";
+import Link from "next/link";
 
 const SkillDetail = ({ params }: { params: { id: string } }) => {
-  const couresId:string = params.id;
+  const couresId: string = params.id;
   console.log(couresId);
 
-  const course=Courses.filter((course)=>course.id==couresId)[0];
+  const course = Courses.filter((course) => course.id == couresId)[0];
 
   return (
     <>
@@ -20,9 +21,10 @@ const SkillDetail = ({ params }: { params: { id: string } }) => {
           <div className="flex flex-col w-full justify-center items-center py-10 md:px-40 px-20 border-b shadow-md">
             <div className="flex flex-col md:max-w-7xl w-full">
               <h1 className="text-3xl font-bold">{course.title}</h1>
-              <button className="flex px-5 py-1 w-max rounded-full bg-orange-700 mt-2 text-gray-100 text-xl">
+              <Link href="#"><button className="flex px-5 py-1 w-max rounded-full bg-orange-700 mt-2 text-gray-100 text-xl">
                 Go to course
               </button>
+              </Link>
             </div>
           </div>
         </div>

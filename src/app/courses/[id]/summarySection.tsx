@@ -20,7 +20,7 @@ export default function SummarySection(props: any) {
                 allowFullScreen
               ></iframe>
               <h1 className="text-xl text-gray-600 font-semibold font-mono mt-5">
-                COURSE SYLLABUS:
+                SYLLABUS:
               </h1>
               <ul className="list-decimal ml-10">
                 {Course.syllabus?.map((item: string, i: any) => {

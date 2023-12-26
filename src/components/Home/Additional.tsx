@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Additional() {
   return (
@@ -13,9 +14,7 @@ export default function Additional() {
             consequuntur quidem natus, error culpa vitae modi nulla tempora
             molestiae doloribus hic eaque?
           </p>
-          <button className="text-white font-bold rounded-md shadow-sm py-2 px-5 bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 mt-5">
-            Meet the Experts
-          </button>
+          <Link href="/about#experts"><button className="text-white font-bold rounded-md shadow-sm py-2 px-5 bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 mt-5 hover:bg-gradient-to-l transition-all duration-500">Meet the Experts</button></Link>
         </div>
         <Image
           src="/additional-removebg-preview.png"
