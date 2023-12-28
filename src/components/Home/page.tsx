@@ -41,7 +41,7 @@ export default function Home(){
                 <div className='flex max-w-7xl w-full flex-col justify-center items-center'>
                     <h1 className='text-4xl font-bold text-white'>Our Alumni are everywhere</h1>
                     <h1 className='text-xl text-white mt-2'>We have placed over 50 million students. Our top hiring partners are</h1>
-                    <div className='flex justify-between mt-10 w-full'>
+                    <div className='flex lg:flex-row flex-col lg:justify-between justify-center items-center mt-10 w-full'>
                         <Image src="/Microsoft_logo.svg" alt="microsoft" height={100} width={100}/>
                         <Image src="/Google__G__logo.svg" alt="microsoft" height={100} width={100}/>
                         <Image src="/Hudson_River_Trading_Logo.svg" alt="microsoft" height={100} width={200}/>

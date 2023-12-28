@@ -13,7 +13,7 @@ import Courses from "@/db/courses.json";
 
 const classNames = (...classes: any) => classes.filter(Boolean).join(" ");
 
-function Appbar() {
+function Header() {
   const [enabled, setEnabled] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const textColor = isScrolled ? "text-gray-800  " : "text-white";
@@ -97,7 +97,7 @@ function Appbar() {
                 <li
                   className={`group cursor-pointer block py-5 pl-3 pr-4  border-b border-gray-100 hover:bg-gray-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ${textColor} `}
                 >
-                  Skill Programmes
+                  <Link href="/courses">Skill Programmes</Link>
                   <div className="relative invisible group-hover:visible">
                     <ul className="flex flex-col absolute top-0 px-2 py-2 font-normal w-max border-2 bg-white text-black rounded-b-lg">
                       {Courses.map((skills, i) => {
@@ -138,4 +138,4 @@ function Appbar() {
   );
 }
 
-export default Appbar;
+export default Header;

@@ -22,7 +22,7 @@ export default function CourseSection() {
                 <h1 className=" flex text-xl mx-10 justify-center items-center">Learn new Industrial skills and upskill in your career with Skill Master courses, that provide you with the best education.</h1>
                 <div className="flex flex-col justify-center w-full items-center mt-10">
                     <div className="flex px-20 w-full justify-center">
-                        <div className="grid grid-cols-4 gap-5 max-w-7xl h-full transition-all duration-500 gap-y-10">
+                        <div className="grid xl:grid-cols-4 lg:grid-cols-2 grid-cols-1 gap-5 max-w-7xl h-full transition-all duration-500 gap-y-10">
                             {display.map((skill, i) => {
                                 return (
                                     <div key={i} className="flex flex-col w-full px-10 py-10 gap-x-5 rounded-2xl border-2 bg-gray-100">
@@ -37,7 +37,7 @@ export default function CourseSection() {
                             })}
                         </div>
                     </div>
-                    <Link href="/catalog"><button className="flex rounded-md px-5 py-2 bg-blue-600 hover:bg-blue-500 mt-10 font-semibold text-white">Explore full catalog</button></Link>
+                    <Link href="/courses"><button className="flex rounded-md px-5 py-2 bg-blue-600 hover:bg-blue-500 mt-10 font-semibold text-white">Explore full catalog</button></Link>
                 </div>
             </div>
         </main>
