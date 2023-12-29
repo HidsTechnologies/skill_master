@@ -31,7 +31,7 @@ export default function About() {
                         <div className='flex flex-col max-w-xl justify-center items-center text-center'>
                             <Image src="/tutorial1.png" alt='tutorial1' width={400} height={400} />
                             <h1 className='text-2xl font-semibold'>Assignment Reviews</h1>
-                            <h1 >We don't just give you assignments, we review your solutions and give you insightful feedbacks on your code to enhance and reinforce your understanding.</h1>
+                            <p>We don&apos;t just give you assignments, we review your solutions and give you insightful feedbacks on your code to enhance and reinforce your understanding.</p>
                         </div>
                         <div className='flex flex-col max-w-xl justify-center items-center text-center'>
                             <Image src="/tutorial2.png" alt='tutorial1' width={400} height={400} />
@@ -46,7 +46,7 @@ export default function About() {
                         <div className='flex flex-col max-w-xl justify-center items-center text-center'>
                             <Image src="/tutorial4.png" alt='tutorial1' width={400} height={400} />
                             <h1 className='text-2xl font-semibold'>Community Forums</h1>
-                            <h1>Just because you are learning online doesn't mean you have to be all alone. With our discussion forum, you can share your opinions with other students and even make friends.</h1>
+                            <p>Just because you are learning online doesn&apos;t mean you have to be all alone. With our discussion forum, you can share your opinions with other students and even make friends.</p>
                         </div>
                     </div>
                 </div>
