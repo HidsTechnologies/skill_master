@@ -21,7 +21,7 @@ export default function CourseSection() {
                 <h1 className="text-3xl font-extrabold text-teal-600 font-serif">Skill Master is a training platform for professionals.</h1>
                 <h1 className=" flex text-xl mx-10 justify-center items-center">Learn new Industrial skills and upskill in your career with Skill Master courses, that provide you with the best education.</h1>
                 <div className="flex flex-col justify-center w-full items-center mt-10">
-                    <div className="flex px-20 w-full justify-center">
+                    <div className="flex w-full justify-center">
                         <div className="grid xl:grid-cols-4 lg:grid-cols-2 grid-cols-1 gap-5 max-w-7xl h-full transition-all duration-500 gap-y-10">
                             {display.map((skill, i) => {
                                 return (
