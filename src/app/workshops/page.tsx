@@ -17,11 +17,12 @@ export default function workshop() {
                     <div className="grid xl:grid-cols-4 lg:grid-cols-2 grid-cols-1 gap-5 max-w-7xl h-full transition-all duration-500 gap-y-10">
                         {Courses.map((skill, i) => {
                             return (
-                                <div key={i} className="flex flex-col w-full h-96 min-w-52 px-10 py-10 rounded-2xl border-2 bg-gray-100" style={{background:`url(${skill.image})`,backgroundSize:"100% 50%",backgroundRepeat:"no-repeat"}}>
-                                    {/* <img src={skill.image} className="h-32 w-40" /> */}
-                                    <div className="flex flex-col h-full mt-36">
+                                <div key={i} className="flex flex-col w-full border-2 bg-gray-100">
+                                    <img src={skill.image} className="h-52 w-full" />
+                                    <div className="flex flex-col h-full p-5">
                                         <h1 className="text-2xl font-bold mb-3">{skill.title}</h1>
                                         <p className="line-clamp-2">{skill.description}</p>
+                                        <Link href={skill.link} className="w-full underline text-right text-gray-600">show more</Link>
                                     </div>
                                 </div>
                             );

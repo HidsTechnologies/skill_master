@@ -11,17 +11,17 @@ export default function About() {
             <div className='flex h-96 relative' style={{ background: `url('/alumni.webp')`, backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
                 <div className='absolute flex w-full bg-black opacity-60 h-full'></div>
                 <div className='absolute flex flex-col w-full h-full justify-center items-center'>
-                    <h1 className='text-9xl text-white font-bold font-serif'>About Us</h1>
+                    <h1 className='md:text-9xl text-6xl text-white font-bold font-serif'>About Us</h1>
                 </div>
             </div>
             <div className='my-10 flex flex-col justify-center items-center mx-10'>
-                <h1 className='text-4xl font-semibold'>About <span className='text-[#967259]'>Skill Master</span></h1>
+                <h1 className='sm:text-4xl text-2xl font-semibold'>About <span className='text-[#967259]'>Skill Master</span></h1>
                 <h1 className='my-10 text-xl max-w-5xl text-center'>Skill Master Academy is one of the leading Skill development platforms which offers various industrial courses in association with top-notch industries like Ashok Leyland, TVS, Ultratech, Bosch Rexroth, BOSCH and leading Universities like Centurion University, CV Raman Global University. We have trained over 1 Lakhs students in its various programs.</h1>
                 <h1 className='text-4xl font-semibold'>Our Motto</h1>
                 <div className='bg-blue-500 flex p-10 rounded-2xl justify-center items-center my-10'>
-                    <Image src="/quote_top.png" alt="quote-top" height={50} width={100} />
-                    <h1 className='text-3xl text-white font-semibold px-5'>The choices we make today create the future that we are dreaming of</h1>
-                    <Image src="/quote_btm.png" alt="quote-top" height={50} width={100} />
+                    <Image src="/quote_top.png" alt="quote-top" height={50} width={100} className='h-10 w-10' />
+                    <h1 className='md:text-3xl text-xl text-white font-semibold px-5'>The choices we make today create the future that we are dreaming of</h1>
+                    <Image src="/quote_btm.png" alt="quote-top" height={50} width={100} className='h-10 w-10' />
                 </div>
             </div>
             <div className='flex flex-col w-full'>
