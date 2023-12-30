@@ -17,7 +17,7 @@ export default function CourseSection() {
 
     return (
         <main>
-            <div className="flex flex-col py-12 justify-center items-center">
+            <div className="flex flex-col py-12 justify-center items-center px-10 text-center">
                 <h1 className="text-3xl font-extrabold text-teal-600 font-serif">Skill Master is a training platform for professionals.</h1>
                 <h1 className=" flex text-xl mx-10 justify-center items-center">Learn new Industrial skills and upskill in your career with Skill Master courses, that provide you with the best education.</h1>
                 <div className="flex flex-col justify-center w-full items-center mt-10">

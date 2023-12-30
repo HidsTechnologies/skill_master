@@ -69,7 +69,7 @@ export default function ReviewSection() {
   }, [review]);
 
   return (
-    <div className="flex flex-col w-full py-10 justify-center items-center mb-10">
+    <div className="flex flex-col w-full py-10 justify-center items-center mb-10 text-center px-5">
       <div>
         <h1 className="flex text-3xl items-center justify-center font-bold text-[#6F4E37] font-serif">
           Over 130,000 students in 150 countries ♥ our courses.

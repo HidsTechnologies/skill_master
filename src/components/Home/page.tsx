@@ -15,9 +15,9 @@ export default function Home() {
             <Header />
             <HeroSection />
             <CourseSection />
-            <div className="flex w-full justify-center items-center py-10 mt-10 bg-yellow-400">
-                <div className="flex max-w-5xl w-full lg:justify-between lg:flex-row flex-col justify-center items-center">
-                    <div className='mt-16 max-w-xl w-full'>
+            <div className="flex w-full justify-center items-center py-10 mt-10 bg-yellow-400 px-5">
+                <div className="flex max-w-5xl w-full lg:justify-between lg:flex-row flex-col justify-center items-center text-center">
+                    <div className='flex flex-col mt-16 max-w-xl w-full justify-center items-center'>
                         <h1 className='text-3xl font-bold'>Not sure where to start?</h1>
                         <h1 className='text-xl'>Explore our curated list of courses listed by skill domains. Enroll in the course of your choice and start learning.</h1>
                         <Link href="/courses"><button className='flex rounded-md px-5 py-2 bg-blue-600 hover:bg-blue-500 mt-5 font-semibold text-white'>Explore</button></Link>
@@ -26,7 +26,7 @@ export default function Home() {
                 </div>
             </div>
             <FeatureSection />
-            <div className='w-full flex h-72 justify-center item-center text-white bg-cover relative' style={{ background: `url('/started.png')` }}>
+            <div className='w-full flex h-72 justify-center item-center text-white bg-cover relative text-center' style={{ background: `url('/started.png')` }}>
                 <div className='absolute w-full h-full bg-black opacity-50'></div>
                 <div className='absolute flex flex-col w-full h-full justify-center items-center'>
                     <h1 className=' lg:text-4xl md:text-2xl text-lg font-bold'>
@@ -37,7 +37,7 @@ export default function Home() {
                 </div>
             </div>
             <Additional />
-            <div className='w-full flex justify-center items-center py-20 mt-10 bg-[#3e4143]'>
+            <div className='w-full flex justify-center items-center py-20 mt-10 bg-[#3e4143] text-center px-5'>
                 <div className='flex max-w-7xl w-full flex-col justify-center items-center'>
                     <h1 className='text-4xl font-bold text-white'>Our Alumni are everywhere</h1>
                     <h1 className='text-xl text-white mt-2'>We have placed over 50 million students. Our top hiring partners are</h1>
