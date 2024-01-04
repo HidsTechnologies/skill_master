@@ -1,23 +1,61 @@
 [
   {
-    "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "type": "skillpath",
+    "parent": "Embedded System Design",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "id": "esd",
     "title": "Embedded System Design",
     "link": "/courses/esd",
     "image": "/embedded.jpeg",
     "summary": [
-      {"title":"Course Code","value":"SMESD 2023"},
-      {"title":"Course", "value":"Embedded System Design"},
-      {"title":"Coordinating Unit","value":"Hictros Industries"},
-      {"title":"Term","value":"180 Days"},
-      {"title":"Level","value":"Certification"},
-      {"title":"Location/s","value":"Hybrid"},
-      {"title":"Units","value":"7"},
-      {"title":"Qualification","value":"ITI/Diploma/BE/Btech/BSc. Electronics"},
-      {"title":"Assumed Knowledge","value":""},
-      {"title":"Course Description","value":""},
-      {"title":"Course Staff","value":""},
-      {"title":"Course Timetable","value":""}
+      {
+        "title": "Course Code",
+        "value": "SMESD 2023"
+      },
+      {
+        "title": "Course",
+        "value": "Embedded System Design"
+      },
+      {
+        "title": "Coordinating Unit",
+        "value": "Hictros Industries"
+      },
+      {
+        "title": "Term",
+        "value": "180 Days"
+      },
+      {
+        "title": "Level",
+        "value": "Certification"
+      },
+      {
+        "title": "Location/s",
+        "value": "Hybrid"
+      },
+      {
+        "title": "Units",
+        "value": "7"
+      },
+      {
+        "title": "Qualification",
+        "value": "ITI/Diploma/BE/Btech/BSc. Electronics"
+      },
+      {
+        "title": "Assumed Knowledge",
+        "value": ""
+      },
+      {
+        "title": "Course Description",
+        "value": ""
+      },
+      {
+        "title": "Course Staff",
+        "value": ""
+      },
+      {
+        "title": "Course Timetable",
+        "value": ""
+      }
     ],
     "syllabus": [
       "C and Embedded C language programming",
@@ -51,24 +89,62 @@
     }
   },
   {
-    "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "type": "skillpath",
+    "parent": "EV Technology",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "id": "evtech",
     "title": "EV Technology",
     "link": "/courses/evtech",
     "image": "/ev.webp",
     "summary": [
-      {"title":"Course Code","value":"SMEVT 2023"},
-      {"title":"Course", "value":"EV Technology"},
-      {"title":"Coordinating Unit","value":"Hictros Industries"},
-      {"title":"Term","value":"180 Days"},
-      {"title":"Level","value":"Certification"},
-      {"title":"Location/s","value":"Hybrid"},
-      {"title":"Units","value":"5"},
-      {"title":"Qualification","value":"ITI/Diploma/BE/Btech"},
-      {"title":"Assumed Knowledge","value":""},
-      {"title":"Course Description","value":""},
-      {"title":"Course Staff","value":""},
-      {"title":"Course Timetable","value":""}
+      {
+        "title": "Course Code",
+        "value": "SMEVT 2023"
+      },
+      {
+        "title": "Course",
+        "value": "EV Technology"
+      },
+      {
+        "title": "Coordinating Unit",
+        "value": "Hictros Industries"
+      },
+      {
+        "title": "Term",
+        "value": "180 Days"
+      },
+      {
+        "title": "Level",
+        "value": "Certification"
+      },
+      {
+        "title": "Location/s",
+        "value": "Hybrid"
+      },
+      {
+        "title": "Units",
+        "value": "5"
+      },
+      {
+        "title": "Qualification",
+        "value": "ITI/Diploma/BE/Btech"
+      },
+      {
+        "title": "Assumed Knowledge",
+        "value": ""
+      },
+      {
+        "title": "Course Description",
+        "value": ""
+      },
+      {
+        "title": "Course Staff",
+        "value": ""
+      },
+      {
+        "title": "Course Timetable",
+        "value": ""
+      }
     ],
     "syllabus": [
       "C and Embedded C language programming",
@@ -102,24 +178,62 @@
     }
   },
   {
-    "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "type": "skillpath",
+    "parent": "Full Stack Development",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "id": "fullstack",
     "title": "Full Stack Development",
     "link": "/courses/fullstack",
     "image": "/fullstack.avif",
     "summary": [
-      {"title":"Course Code","value":"SMFS 2023"},
-      {"title":"Course", "value":"Full Stack"},
-      {"title":"Coordinating Unit","value":"Hictros Industries"},
-      {"title":"Term","value":"180 Days"},
-      {"title":"Level","value":"Certification"},
-      {"title":"Location/s","value":"Hybrid"},
-      {"title":"Units","value":"7"},
-      {"title":"Qualification","value":"ITI/Diploma/BE/Btech/Any Graduation"},
-      {"title":"Assumed Knowledge","value":""},
-      {"title":"Course Description","value":""},
-      {"title":"Course Staff","value":""},
-      {"title":"Course Timetable","value":""}
+      {
+        "title": "Course Code",
+        "value": "SMFS 2023"
+      },
+      {
+        "title": "Course",
+        "value": "Full Stack"
+      },
+      {
+        "title": "Coordinating Unit",
+        "value": "Hictros Industries"
+      },
+      {
+        "title": "Term",
+        "value": "180 Days"
+      },
+      {
+        "title": "Level",
+        "value": "Certification"
+      },
+      {
+        "title": "Location/s",
+        "value": "Hybrid"
+      },
+      {
+        "title": "Units",
+        "value": "7"
+      },
+      {
+        "title": "Qualification",
+        "value": "ITI/Diploma/BE/Btech/Any Graduation"
+      },
+      {
+        "title": "Assumed Knowledge",
+        "value": ""
+      },
+      {
+        "title": "Course Description",
+        "value": ""
+      },
+      {
+        "title": "Course Staff",
+        "value": ""
+      },
+      {
+        "title": "Course Timetable",
+        "value": ""
+      }
     ],
     "syllabus": [
       "C and Embedded C language programming",
@@ -154,29 +268,67 @@
         "Trainers have Real time project experience in their industry.",
         "Students can ask their doubts to the trainer.",
         "Trainer prepares students on relevant subjects for the interview.",
-        "Our trainers give real time-based assignments to understand the subject practically."        
+        "Our trainers give real time-based assignments to understand the subject practically."
       ]
     }
   },
   {
-    "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "type": "skillpath",
+    "parent": "IIoT",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "id": "iiot",
     "title": "IIoT",
     "link": "/courses/iiot",
     "image": "/iiot.jpg",
     "summary": [
-      {"title":"Course Code","value":"SMESD 2023"},
-      {"title":"Course", "value":"Embedded System Design"},
-      {"title":"Coordinating Unit","value":"Hictros Industries"},
-      {"title":"Term","value":"180 Days"},
-      {"title":"Level","value":"Certification"},
-      {"title":"Location/s","value":"Hybrid"},
-      {"title":"Units","value":"7"},
-      {"title":"Qualification","value":"ITI/Diploma/BE/Btech/BSc. Electronics"},
-      {"title":"Assumed Knowledge","value":""},
-      {"title":"Course Description","value":""},
-      {"title":"Course Staff","value":""},
-      {"title":"Course Timetable","value":""}
+      {
+        "title": "Course Code",
+        "value": "SMESD 2023"
+      },
+      {
+        "title": "Course",
+        "value": "Embedded System Design"
+      },
+      {
+        "title": "Coordinating Unit",
+        "value": "Hictros Industries"
+      },
+      {
+        "title": "Term",
+        "value": "180 Days"
+      },
+      {
+        "title": "Level",
+        "value": "Certification"
+      },
+      {
+        "title": "Location/s",
+        "value": "Hybrid"
+      },
+      {
+        "title": "Units",
+        "value": "7"
+      },
+      {
+        "title": "Qualification",
+        "value": "ITI/Diploma/BE/Btech/BSc. Electronics"
+      },
+      {
+        "title": "Assumed Knowledge",
+        "value": ""
+      },
+      {
+        "title": "Course Description",
+        "value": ""
+      },
+      {
+        "title": "Course Staff",
+        "value": ""
+      },
+      {
+        "title": "Course Timetable",
+        "value": ""
+      }
     ],
     "syllabus": [
       "C and Embedded C language programming",
@@ -210,24 +362,62 @@
     }
   },
   {
-    "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "type": "skillpath",
+    "parent": "Industrial Automation",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "id": "industrial_automation",
     "title": "Industrial Automation",
     "link": "/courses/industrial_automation",
     "image": "/automation.jpg",
     "summary": [
-      {"title":"Course Code","value":"SMESD 2023"},
-      {"title":"Course", "value":"Embedded System Design"},
-      {"title":"Coordinating Unit","value":"Hictros Industries"},
-      {"title":"Term","value":"180 Days"},
-      {"title":"Level","value":"Certification"},
-      {"title":"Location/s","value":"Hybrid"},
-      {"title":"Units","value":"7"},
-      {"title":"Qualification","value":"ITI/Diploma/BE/Btech/BSc. Electronics"},
-      {"title":"Assumed Knowledge","value":""},
-      {"title":"Course Description","value":""},
-      {"title":"Course Staff","value":""},
-      {"title":"Course Timetable","value":""}
+      {
+        "title": "Course Code",
+        "value": "SMESD 2023"
+      },
+      {
+        "title": "Course",
+        "value": "Embedded System Design"
+      },
+      {
+        "title": "Coordinating Unit",
+        "value": "Hictros Industries"
+      },
+      {
+        "title": "Term",
+        "value": "180 Days"
+      },
+      {
+        "title": "Level",
+        "value": "Certification"
+      },
+      {
+        "title": "Location/s",
+        "value": "Hybrid"
+      },
+      {
+        "title": "Units",
+        "value": "7"
+      },
+      {
+        "title": "Qualification",
+        "value": "ITI/Diploma/BE/Btech/BSc. Electronics"
+      },
+      {
+        "title": "Assumed Knowledge",
+        "value": ""
+      },
+      {
+        "title": "Course Description",
+        "value": ""
+      },
+      {
+        "title": "Course Staff",
+        "value": ""
+      },
+      {
+        "title": "Course Timetable",
+        "value": ""
+      }
     ],
     "syllabus": [
       "C and Embedded C language programming",
@@ -261,24 +451,62 @@
     }
   },
   {
-    "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "type": "skillpath",
+    "parent": "Machine Learning",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "id": "machine_learning",
     "title": "Machine Learning",
     "link": "/courses/machine_learning",
     "image": "/ml.jpg",
     "summary": [
-      {"title":"Course Code","value":"SMESD 2023"},
-      {"title":"Course", "value":"Embedded System Design"},
-      {"title":"Coordinating Unit","value":"Hictros Industries"},
-      {"title":"Term","value":"180 Days"},
-      {"title":"Level","value":"Certification"},
-      {"title":"Location/s","value":"Hybrid"},
-      {"title":"Units","value":"7"},
-      {"title":"Qualification","value":"ITI/Diploma/BE/Btech/BSc. Electronics"},
-      {"title":"Assumed Knowledge","value":""},
-      {"title":"Course Description","value":""},
-      {"title":"Course Staff","value":""},
-      {"title":"Course Timetable","value":""}
+      {
+        "title": "Course Code",
+        "value": "SMESD 2023"
+      },
+      {
+        "title": "Course",
+        "value": "Embedded System Design"
+      },
+      {
+        "title": "Coordinating Unit",
+        "value": "Hictros Industries"
+      },
+      {
+        "title": "Term",
+        "value": "180 Days"
+      },
+      {
+        "title": "Level",
+        "value": "Certification"
+      },
+      {
+        "title": "Location/s",
+        "value": "Hybrid"
+      },
+      {
+        "title": "Units",
+        "value": "7"
+      },
+      {
+        "title": "Qualification",
+        "value": "ITI/Diploma/BE/Btech/BSc. Electronics"
+      },
+      {
+        "title": "Assumed Knowledge",
+        "value": ""
+      },
+      {
+        "title": "Course Description",
+        "value": ""
+      },
+      {
+        "title": "Course Staff",
+        "value": ""
+      },
+      {
+        "title": "Course Timetable",
+        "value": ""
+      }
     ],
     "syllabus": [
       "C and Embedded C language programming",
@@ -312,24 +540,62 @@
     }
   },
   {
-    "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "type": "skillpath",
+    "parent": "PLC SCADA",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "id": "plc_scada",
     "title": "PLC SCADA",
     "link": "/courses/plc_scada",
     "image": "/plcscada.jpg",
     "summary": [
-      {"title":"Course Code","value":"SMESD 2023"},
-      {"title":"Course", "value":"Embedded System Design"},
-      {"title":"Coordinating Unit","value":"Hictros Industries"},
-      {"title":"Term","value":"180 Days"},
-      {"title":"Level","value":"Certification"},
-      {"title":"Location/s","value":"Hybrid"},
-      {"title":"Units","value":"7"},
-      {"title":"Qualification","value":"ITI/Diploma/BE/Btech/BSc. Electronics"},
-      {"title":"Assumed Knowledge","value":""},
-      {"title":"Course Description","value":""},
-      {"title":"Course Staff","value":""},
-      {"title":"Course Timetable","value":""}
+      {
+        "title": "Course Code",
+        "value": "SMESD 2023"
+      },
+      {
+        "title": "Course",
+        "value": "Embedded System Design"
+      },
+      {
+        "title": "Coordinating Unit",
+        "value": "Hictros Industries"
+      },
+      {
+        "title": "Term",
+        "value": "180 Days"
+      },
+      {
+        "title": "Level",
+        "value": "Certification"
+      },
+      {
+        "title": "Location/s",
+        "value": "Hybrid"
+      },
+      {
+        "title": "Units",
+        "value": "7"
+      },
+      {
+        "title": "Qualification",
+        "value": "ITI/Diploma/BE/Btech/BSc. Electronics"
+      },
+      {
+        "title": "Assumed Knowledge",
+        "value": ""
+      },
+      {
+        "title": "Course Description",
+        "value": ""
+      },
+      {
+        "title": "Course Staff",
+        "value": ""
+      },
+      {
+        "title": "Course Timetable",
+        "value": ""
+      }
     ],
     "syllabus": [
       "C and Embedded C language programming",
@@ -363,24 +629,62 @@
     }
   },
   {
-    "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "type": "skillpath",
+    "parent": "Python",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "id": "python",
     "title": "Python",
     "link": "/courses/python",
     "image": "/python.png",
     "summary": [
-      {"title":"Course Code","value":"SMESD 2023"},
-      {"title":"Course", "value":"Embedded System Design"},
-      {"title":"Coordinating Unit","value":"Hictros Industries"},
-      {"title":"Term","value":"180 Days"},
-      {"title":"Level","value":"Certification"},
-      {"title":"Location/s","value":"Hybrid"},
-      {"title":"Units","value":"7"},
-      {"title":"Qualification","value":"ITI/Diploma/BE/Btech/BSc. Electronics"},
-      {"title":"Assumed Knowledge","value":""},
-      {"title":"Course Description","value":""},
-      {"title":"Course Staff","value":""},
-      {"title":"Course Timetable","value":""}
+      {
+        "title": "Course Code",
+        "value": "SMESD 2023"
+      },
+      {
+        "title": "Course",
+        "value": "Embedded System Design"
+      },
+      {
+        "title": "Coordinating Unit",
+        "value": "Hictros Industries"
+      },
+      {
+        "title": "Term",
+        "value": "180 Days"
+      },
+      {
+        "title": "Level",
+        "value": "Certification"
+      },
+      {
+        "title": "Location/s",
+        "value": "Hybrid"
+      },
+      {
+        "title": "Units",
+        "value": "7"
+      },
+      {
+        "title": "Qualification",
+        "value": "ITI/Diploma/BE/Btech/BSc. Electronics"
+      },
+      {
+        "title": "Assumed Knowledge",
+        "value": ""
+      },
+      {
+        "title": "Course Description",
+        "value": ""
+      },
+      {
+        "title": "Course Staff",
+        "value": ""
+      },
+      {
+        "title": "Course Timetable",
+        "value": ""
+      }
     ],
     "syllabus": [
       "C and Embedded C language programming",
@@ -414,24 +718,62 @@
     }
   },
   {
-    "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "type": "skillpath",
+    "parent": "Remote Engineering and Robotics",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "id": "rer",
     "title": "Remote Engineering and Robotics",
     "link": "/courses/rer",
     "image": "/robotics.jpg",
     "summary": [
-      {"title":"Course Code","value":"SMESD 2023"},
-      {"title":"Course", "value":"Embedded System Design"},
-      {"title":"Coordinating Unit","value":"Hictros Industries"},
-      {"title":"Term","value":"180 Days"},
-      {"title":"Level","value":"Certification"},
-      {"title":"Location/s","value":"Hybrid"},
-      {"title":"Units","value":"7"},
-      {"title":"Qualification","value":"ITI/Diploma/BE/Btech/BSc. Electronics"},
-      {"title":"Assumed Knowledge","value":""},
-      {"title":"Course Description","value":""},
-      {"title":"Course Staff","value":""},
-      {"title":"Course Timetable","value":""}
+      {
+        "title": "Course Code",
+        "value": "SMESD 2023"
+      },
+      {
+        "title": "Course",
+        "value": "Embedded System Design"
+      },
+      {
+        "title": "Coordinating Unit",
+        "value": "Hictros Industries"
+      },
+      {
+        "title": "Term",
+        "value": "180 Days"
+      },
+      {
+        "title": "Level",
+        "value": "Certification"
+      },
+      {
+        "title": "Location/s",
+        "value": "Hybrid"
+      },
+      {
+        "title": "Units",
+        "value": "7"
+      },
+      {
+        "title": "Qualification",
+        "value": "ITI/Diploma/BE/Btech/BSc. Electronics"
+      },
+      {
+        "title": "Assumed Knowledge",
+        "value": ""
+      },
+      {
+        "title": "Course Description",
+        "value": ""
+      },
+      {
+        "title": "Course Staff",
+        "value": ""
+      },
+      {
+        "title": "Course Timetable",
+        "value": ""
+      }
     ],
     "syllabus": [
       "C and Embedded C language programming",
@@ -441,6 +783,566 @@
       "Linux device driver development",
       "Protocol based micro-controller programming. Protocols like RS-232, SPI, CAN, USB, Ethernet, Zigbee, Bluetooth, I2C, MODBUS etc.",
       "Python Language programming"
+    ],
+    "learningObjective": "Participants will be equipped with a comprehensive skill set in embedded systems and related technologies. They will have the ability to program microcontrollers in various languages, design and fabricate PCBs, understand operating systems and RTOS internals, develop Linux device drivers, and program microcontrollers based on different protocols. Additionally, participants will gain proficiency in Python programming. These skills are essential for individuals pursuing careers in embedded systems development, IoT, and related fields.",
+    "assessment": {
+      "title": "The institution's policy on Assessment for Coursework Programs is based on the following four principles:",
+      "points": [
+        "Assessment must encourage and reinforce learning.",
+        "Assessment must enable robust and fair judgements about student performance.",
+        "Assessment practices must be fair and equitable to students and give them the opportunity to demonstrate what they have learned.",
+        "Assessment must maintain academic standards."
+      ]
+    },
+    "certification": "Upon finishing our theoretical and practical sessions, both freshers and corporate trainees receive comprehensive support. Skill Master's globally accredited certification enhances your resume, opening doors to top job positions in leading global MNCs. This certification is granted upon the successful completion of our training and practical projects.",
+    "trainerProfile": {
+      "title": "Our trainers simplify complex concepts, ensuring effective learning. Students have the freedom to explore subjects, with teachings grounded in real-time examples. We offer project assistance, interview preparation, and one-on-one coaching with the flexibility to ask questions anytime.",
+      "points": [
+        "Certified Professionals with more than 8+ Years of Experience",
+        "Trained more than 500+ students in a year",
+        "Strong Theoretical & Practical Knowledge in their domains",
+        "Expert level Subject Knowledge and fully up to date on real-world industry applications",
+        "Blended academic and industrial exposure"
+      ]
+    }
+  },
+  {
+    "type": "course",
+    "title": "HTML 4 & HTML 5",
+    "parent": "Full Stack Development",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "id": "html",
+    "link": "/courses/html",
+    "image": "",
+    "summary": [
+      {
+        "title": "Course Code",
+        "value": "SMFS 2023"
+      },
+      {
+        "title": "Course",
+        "value": "Full Stack"
+      },
+      {
+        "title": "Coordinating Unit",
+        "value": "Hictros Industries"
+      },
+      {
+        "title": "Term",
+        "value": "180 Days"
+      },
+      {
+        "title": "Level",
+        "value": "Certification"
+      },
+      {
+        "title": "Location/s",
+        "value": "Hybrid"
+      },
+      {
+        "title": "Units",
+        "value": "7"
+      },
+      {
+        "title": "Qualification",
+        "value": "ITI/Diploma/BE/Btech/Any Graduation"
+      },
+      {
+        "title": "Assumed Knowledge",
+        "value": ""
+      },
+      {
+        "title": "Course Description",
+        "value": ""
+      },
+      {
+        "title": "Course Staff",
+        "value": ""
+      },
+      {
+        "title": "Course Timetable",
+        "value": ""
+      }
+    ],
+    "syllabus": [
+      "Introduction of HTML",
+      "Tag, Elements and Attributes",
+      "Basics syntax",
+      "Table",
+      "List",
+      "Forms",
+      "Structure of HTML4 and HTML5",
+      "Semantic and non-semantic tags",
+      "HTML 5 Features",
+      "New Input type",
+      "Forms Attribute",
+      "SVG",
+      "Canvas",
+      "Audio, Video Tag"
+    ],
+    "learningObjective": "Participants will be equipped with a comprehensive skill set in embedded systems and related technologies. They will have the ability to program microcontrollers in various languages, design and fabricate PCBs, understand operating systems and RTOS internals, develop Linux device drivers, and program microcontrollers based on different protocols. Additionally, participants will gain proficiency in Python programming. These skills are essential for individuals pursuing careers in embedded systems development, IoT, and related fields.",
+    "assessment": {
+      "title": "The institution's policy on Assessment for Coursework Programs is based on the following four principles:",
+      "points": [
+        "Assessment must encourage and reinforce learning.",
+        "Assessment must enable robust and fair judgements about student performance.",
+        "Assessment practices must be fair and equitable to students and give them the opportunity to demonstrate what they have learned.",
+        "Assessment must maintain academic standards."
+      ]
+    },
+    "certification": "Upon finishing our theoretical and practical sessions, both freshers and corporate trainees receive comprehensive support. Skill Master's globally accredited certification enhances your resume, opening doors to top job positions in leading global MNCs. This certification is granted upon the successful completion of our training and practical projects.",
+    "trainerProfile": {
+      "title": "Our trainers simplify complex concepts, ensuring effective learning. Students have the freedom to explore subjects, with teachings grounded in real-time examples. We offer project assistance, interview preparation, and one-on-one coaching with the flexibility to ask questions anytime.",
+      "points": [
+        "Certified Professionals with more than 8+ Years of Experience",
+        "Trained more than 500+ students in a year",
+        "Strong Theoretical & Practical Knowledge in their domains",
+        "Expert level Subject Knowledge and fully up to date on real-world industry applications",
+        "Blended academic and industrial exposure"
+      ]
+    }
+  },
+  {
+    "type": "course",
+    "title": "CSS (Cascading Style Sheet)",
+    "parent": "Full Stack Development",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "id": "css",
+    "link": "/courses/css",
+    "image": "",
+    "summary": [
+      {
+        "title": "Course Code",
+        "value": "SMFS 2023"
+      },
+      {
+        "title": "Course",
+        "value": "Full Stack"
+      },
+      {
+        "title": "Coordinating Unit",
+        "value": "Hictros Industries"
+      },
+      {
+        "title": "Term",
+        "value": "180 Days"
+      },
+      {
+        "title": "Level",
+        "value": "Certification"
+      },
+      {
+        "title": "Location/s",
+        "value": "Hybrid"
+      },
+      {
+        "title": "Units",
+        "value": "7"
+      },
+      {
+        "title": "Qualification",
+        "value": "ITI/Diploma/BE/Btech/Any Graduation"
+      },
+      {
+        "title": "Assumed Knowledge",
+        "value": ""
+      },
+      {
+        "title": "Course Description",
+        "value": ""
+      },
+      {
+        "title": "Course Staff",
+        "value": ""
+      },
+      {
+        "title": "Course Timetable",
+        "value": ""
+      }
+    ],
+    "syllabus": [
+      "Attributes (ID, Class, Style, Title )",
+      "CSS Types (Inline, Internal, External)",
+      "Box-model",
+      "Display Property (Block, Inline, None)",
+      "Visibility-Hidden",
+      "Position Property(Static, Relative, Absolute, Fixed )",
+      "Z-index Property",
+      "Combinators (Descendant Selector, Child Selector, Adjacent Sibling Selector, General Sibling Selector)",
+      "CSS Pseudo-classes (Link, Visited, Hover, Active)",
+      "CSS Pseudo-elements (First Line, First Letter, Before, After ,Selection)",
+      "Static Web Page",
+      "Viewport Meta tag"
+    ],
+    "learningObjective": "Participants will be equipped with a comprehensive skill set in embedded systems and related technologies. They will have the ability to program microcontrollers in various languages, design and fabricate PCBs, understand operating systems and RTOS internals, develop Linux device drivers, and program microcontrollers based on different protocols. Additionally, participants will gain proficiency in Python programming. These skills are essential for individuals pursuing careers in embedded systems development, IoT, and related fields.",
+    "assessment": {
+      "title": "The institution's policy on Assessment for Coursework Programs is based on the following four principles:",
+      "points": [
+        "Assessment must encourage and reinforce learning.",
+        "Assessment must enable robust and fair judgements about student performance.",
+        "Assessment practices must be fair and equitable to students and give them the opportunity to demonstrate what they have learned.",
+        "Assessment must maintain academic standards."
+      ]
+    },
+    "certification": "Upon finishing our theoretical and practical sessions, both freshers and corporate trainees receive comprehensive support. Skill Master's globally accredited certification enhances your resume, opening doors to top job positions in leading global MNCs. This certification is granted upon the successful completion of our training and practical projects.",
+    "trainerProfile": {
+      "title": "Our trainers simplify complex concepts, ensuring effective learning. Students have the freedom to explore subjects, with teachings grounded in real-time examples. We offer project assistance, interview preparation, and one-on-one coaching with the flexibility to ask questions anytime.",
+      "points": [
+        "Certified Professionals with more than 8+ Years of Experience",
+        "Trained more than 500+ students in a year",
+        "Strong Theoretical & Practical Knowledge in their domains",
+        "Expert level Subject Knowledge and fully up to date on real-world industry applications",
+        "Blended academic and industrial exposure"
+      ]
+    }
+  },
+  {
+    "type": "course",
+    "title": "CSS 3",
+    "parent": "Full Stack Development",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "id": "css3",
+    "link": "/courses/css3",
+    "image": "",
+    "summary": [
+      {
+        "title": "Course Code",
+        "value": "SMFS 2023"
+      },
+      {
+        "title": "Course",
+        "value": "Full Stack"
+      },
+      {
+        "title": "Coordinating Unit",
+        "value": "Hictros Industries"
+      },
+      {
+        "title": "Term",
+        "value": "180 Days"
+      },
+      {
+        "title": "Level",
+        "value": "Certification"
+      },
+      {
+        "title": "Location/s",
+        "value": "Hybrid"
+      },
+      {
+        "title": "Units",
+        "value": "7"
+      },
+      {
+        "title": "Qualification",
+        "value": "ITI/Diploma/BE/Btech/Any Graduation"
+      },
+      {
+        "title": "Assumed Knowledge",
+        "value": ""
+      },
+      {
+        "title": "Course Description",
+        "value": ""
+      },
+      {
+        "title": "Course Staff",
+        "value": ""
+      },
+      {
+        "title": "Course Timetable",
+        "value": ""
+      }
+    ],
+    "syllabus": [
+      "Background, Multiple Backgrounds",
+      "Font Related Features (online fonts)",
+      "Text-Effect and Box-Effect",
+      "Gradients-Linear and Radial",
+      "Transition",
+      "Transformation",
+      "Animation",
+      "Media Queries"
+    ],
+    "learningObjective": "Participants will be equipped with a comprehensive skill set in embedded systems and related technologies. They will have the ability to program microcontrollers in various languages, design and fabricate PCBs, understand operating systems and RTOS internals, develop Linux device drivers, and program microcontrollers based on different protocols. Additionally, participants will gain proficiency in Python programming. These skills are essential for individuals pursuing careers in embedded systems development, IoT, and related fields.",
+    "assessment": {
+      "title": "The institution's policy on Assessment for Coursework Programs is based on the following four principles:",
+      "points": [
+        "Assessment must encourage and reinforce learning.",
+        "Assessment must enable robust and fair judgements about student performance.",
+        "Assessment practices must be fair and equitable to students and give them the opportunity to demonstrate what they have learned.",
+        "Assessment must maintain academic standards."
+      ]
+    },
+    "certification": "Upon finishing our theoretical and practical sessions, both freshers and corporate trainees receive comprehensive support. Skill Master's globally accredited certification enhances your resume, opening doors to top job positions in leading global MNCs. This certification is granted upon the successful completion of our training and practical projects.",
+    "trainerProfile": {
+      "title": "Our trainers simplify complex concepts, ensuring effective learning. Students have the freedom to explore subjects, with teachings grounded in real-time examples. We offer project assistance, interview preparation, and one-on-one coaching with the flexibility to ask questions anytime.",
+      "points": [
+        "Certified Professionals with more than 8+ Years of Experience",
+        "Trained more than 500+ students in a year",
+        "Strong Theoretical & Practical Knowledge in their domains",
+        "Expert level Subject Knowledge and fully up to date on real-world industry applications",
+        "Blended academic and industrial exposure"
+      ]
+    }
+  },
+  {
+    "type": "course",
+    "title": "Bootstrap",
+    "parent": "Full Stack Development",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "id": "bootstrap",
+    "link": "/courses/bootstrap",
+    "image": "",
+    "summary": [
+      {
+        "title": "Course Code",
+        "value": "SMFS 2023"
+      },
+      {
+        "title": "Course",
+        "value": "Full Stack"
+      },
+      {
+        "title": "Coordinating Unit",
+        "value": "Hictros Industries"
+      },
+      {
+        "title": "Term",
+        "value": "180 Days"
+      },
+      {
+        "title": "Level",
+        "value": "Certification"
+      },
+      {
+        "title": "Location/s",
+        "value": "Hybrid"
+      },
+      {
+        "title": "Units",
+        "value": "7"
+      },
+      {
+        "title": "Qualification",
+        "value": "ITI/Diploma/BE/Btech/Any Graduation"
+      },
+      {
+        "title": "Assumed Knowledge",
+        "value": ""
+      },
+      {
+        "title": "Course Description",
+        "value": ""
+      },
+      {
+        "title": "Course Staff",
+        "value": ""
+      },
+      {
+        "title": "Course Timetable",
+        "value": ""
+      }
+    ],
+    "syllabus": [
+      "Introduction of Bootstrap (Responsive)",
+      "Typography",
+      "Tables",
+      "Images,Buttons",
+      "Grid Structure-Type of columns",
+      "Forms",
+      "Jumbortron",
+      "Well",
+      "Panel",
+      "Navbar, Nav Tab",
+      "Carousel",
+      "Responsive Web Page"
+    ],
+    "learningObjective": "Participants will be equipped with a comprehensive skill set in embedded systems and related technologies. They will have the ability to program microcontrollers in various languages, design and fabricate PCBs, understand operating systems and RTOS internals, develop Linux device drivers, and program microcontrollers based on different protocols. Additionally, participants will gain proficiency in Python programming. These skills are essential for individuals pursuing careers in embedded systems development, IoT, and related fields.",
+    "assessment": {
+      "title": "The institution's policy on Assessment for Coursework Programs is based on the following four principles:",
+      "points": [
+        "Assessment must encourage and reinforce learning.",
+        "Assessment must enable robust and fair judgements about student performance.",
+        "Assessment practices must be fair and equitable to students and give them the opportunity to demonstrate what they have learned.",
+        "Assessment must maintain academic standards."
+      ]
+    },
+    "certification": "Upon finishing our theoretical and practical sessions, both freshers and corporate trainees receive comprehensive support. Skill Master's globally accredited certification enhances your resume, opening doors to top job positions in leading global MNCs. This certification is granted upon the successful completion of our training and practical projects.",
+    "trainerProfile": {
+      "title": "Our trainers simplify complex concepts, ensuring effective learning. Students have the freedom to explore subjects, with teachings grounded in real-time examples. We offer project assistance, interview preparation, and one-on-one coaching with the flexibility to ask questions anytime.",
+      "points": [
+        "Certified Professionals with more than 8+ Years of Experience",
+        "Trained more than 500+ students in a year",
+        "Strong Theoretical & Practical Knowledge in their domains",
+        "Expert level Subject Knowledge and fully up to date on real-world industry applications",
+        "Blended academic and industrial exposure"
+      ]
+    }
+  },
+  {
+    "type": "course",
+    "title": "JavaScript",
+    "parent": "Full Stack Development",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "id": "js",
+    "link": "/courses/js",
+    "image": "",
+    "summary": [
+      {
+        "title": "Course Code",
+        "value": "SMFS 2023"
+      },
+      {
+        "title": "Course",
+        "value": "Full Stack"
+      },
+      {
+        "title": "Coordinating Unit",
+        "value": "Hictros Industries"
+      },
+      {
+        "title": "Term",
+        "value": "180 Days"
+      },
+      {
+        "title": "Level",
+        "value": "Certification"
+      },
+      {
+        "title": "Location/s",
+        "value": "Hybrid"
+      },
+      {
+        "title": "Units",
+        "value": "7"
+      },
+      {
+        "title": "Qualification",
+        "value": "ITI/Diploma/BE/Btech/Any Graduation"
+      },
+      {
+        "title": "Assumed Knowledge",
+        "value": ""
+      },
+      {
+        "title": "Course Description",
+        "value": ""
+      },
+      {
+        "title": "Course Staff",
+        "value": ""
+      },
+      {
+        "title": "Course Timetable",
+        "value": ""
+      }
+    ],
+    "syllabus": [
+      "Introduction of JavaScript",
+      "Use of JavaScript",
+      "Variables",
+      "Keywords",
+      "Data Type (Primitive, non-primitive)",
+      "JS Conditions (if, if-else)",
+      "Conditional operators & logical operators",
+      "Loops (for, while, do-while)",
+      "Switch Case",
+      "Functions",
+      "SetTimeout and set Interval Function",
+      "HTML DOM",
+      "Use the document object to access and manipulate HTML",
+      "Changing HTML Elements",
+      "Adding and Deleting Elements",
+      "Array",
+      "Objects",
+      "How to access Objects (Dot Notation, bracket Notation)",
+      "Object Creation (Empty Object, Literal Way, Constructor Way)",
+      "Prototype",
+      "Validations",
+      "Events"
+    ],
+    "learningObjective": "Participants will be equipped with a comprehensive skill set in embedded systems and related technologies. They will have the ability to program microcontrollers in various languages, design and fabricate PCBs, understand operating systems and RTOS internals, develop Linux device drivers, and program microcontrollers based on different protocols. Additionally, participants will gain proficiency in Python programming. These skills are essential for individuals pursuing careers in embedded systems development, IoT, and related fields.",
+    "assessment": {
+      "title": "The institution's policy on Assessment for Coursework Programs is based on the following four principles:",
+      "points": [
+        "Assessment must encourage and reinforce learning.",
+        "Assessment must enable robust and fair judgements about student performance.",
+        "Assessment practices must be fair and equitable to students and give them the opportunity to demonstrate what they have learned.",
+        "Assessment must maintain academic standards."
+      ]
+    },
+    "certification": "Upon finishing our theoretical and practical sessions, both freshers and corporate trainees receive comprehensive support. Skill Master's globally accredited certification enhances your resume, opening doors to top job positions in leading global MNCs. This certification is granted upon the successful completion of our training and practical projects.",
+    "trainerProfile": {
+      "title": "Our trainers simplify complex concepts, ensuring effective learning. Students have the freedom to explore subjects, with teachings grounded in real-time examples. We offer project assistance, interview preparation, and one-on-one coaching with the flexibility to ask questions anytime.",
+      "points": [
+        "Certified Professionals with more than 8+ Years of Experience",
+        "Trained more than 500+ students in a year",
+        "Strong Theoretical & Practical Knowledge in their domains",
+        "Expert level Subject Knowledge and fully up to date on real-world industry applications",
+        "Blended academic and industrial exposure"
+      ]
+    }
+  },
+  {
+    "type": "course",
+    "title": "jQuery",
+    "parent": "Full Stack Development",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "id": "jquery",
+    "link": "/courses/jquery",
+    "image": "",
+    "summary": [
+      {
+        "title": "Course Code",
+        "value": "SMFS 2023"
+      },
+      {
+        "title": "Course",
+        "value": "Full Stack"
+      },
+      {
+        "title": "Coordinating Unit",
+        "value": "Hictros Industries"
+      },
+      {
+        "title": "Term",
+        "value": "180 Days"
+      },
+      {
+        "title": "Level",
+        "value": "Certification"
+      },
+      {
+        "title": "Location/s",
+        "value": "Hybrid"
+      },
+      {
+        "title": "Units",
+        "value": "7"
+      },
+      {
+        "title": "Qualification",
+        "value": "ITI/Diploma/BE/Btech/Any Graduation"
+      },
+      {
+        "title": "Assumed Knowledge",
+        "value": ""
+      },
+      {
+        "title": "Course Description",
+        "value": ""
+      },
+      {
+        "title": "Course Staff",
+        "value": ""
+      },
+      {
+        "title": "Course Timetable",
+        "value": ""
+      }
+    ],
+    "syllabus": [
     ],
     "learningObjective": "Participants will be equipped with a comprehensive skill set in embedded systems and related technologies. They will have the ability to program microcontrollers in various languages, design and fabricate PCBs, understand operating systems and RTOS internals, develop Linux device drivers, and program microcontrollers based on different protocols. Additionally, participants will gain proficiency in Python programming. These skills are essential for individuals pursuing careers in embedded systems development, IoT, and related fields.",
     "assessment": {

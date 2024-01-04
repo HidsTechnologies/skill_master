@@ -6,18 +6,38 @@ import Courses from '@/db/courses.json';
 import Footer from "@/components/footer/page";
 import { ArrowRightIcon, MagnifyingGlassIcon, XCircleIcon } from "@heroicons/react/20/solid";
 import DropDown from "./Dropdown";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import careerpaths from '@/db/careerpath.json'
 
 const popular = Courses.slice(0, 4);
-const categories=Courses.map((item)=>{return(item.title)});
 
 export default function Catalog() {
-    const [category, setCategory] = useState("all");
+    const [category, setCategory] = useState("All");
     const [searchText, setSearchText] = useState("");
+    const [courses,setCourses]=useState([]);
+
+    const filter=()=>{
+        let list: any = [];
+        if (category != "All") {
+            list=Courses.filter((item) => {
+                return (item.type == "course" && item.parent == category);
+            });
+        }
+        else {
+            list = Courses.filter((item)=>{
+                return item.type=='course';
+            });
+        }
+        return list;
+    }
+
+    useEffect(() => {
+        setCourses(()=>filter());
+    }, [category]);
 
 
-    const MobileSearchBar = ({ setSearchText, searchText, category, setCategory }:any) => (
-        <div className=" sm:hidden flex flex-col items-center mt-10">
+    const MobileSearchBar = ({ setSearchText, searchText, category, setCategory }: any) => (
+        <div className=" sm:hidden flex flex-col items-center mt-10 sticky top-[3.8rem] p-1 bg-gray-50 z-10">
             <div className="flex w-min shadow-md border-2 rounded-md mb-2">
                 <div className="px-2 flex">
                     <input
@@ -40,14 +60,14 @@ export default function Catalog() {
             </div>
 
             <div className="w-min shadow-md border-2 rounded-md mb-2 z-10">
-                <DropDown list={categories} selected={category} setSelected={setCategory} />
+                <CategoriesDropDown selected={category} setSelected={setCategory} />
             </div>
         </div>
     );
 
-    const SearchBar = ({ setSearchText, searchText, category, setCategory }:any) => {
+    const SearchBar = ({ setSearchText, searchText, category, setCategory }: any) => {
         return (
-            <div className=" hidden sm:flex  w-full px-5 justify-center items-center mt-10">
+            <div className=" hidden sm:flex  w-full px-5 justify-center items-center mt-10 sticky top-[3.8rem] py-5 z-10 bg-gray-50">
                 <div className="flex  w-min shadow-md border-2 rounded-md ">
                     <MagnifyingGlassIcon className="w-6 mx-2" />
                     <div className="px-2 flex">
@@ -70,10 +90,24 @@ export default function Catalog() {
                     </div>
                     <div className="py-2  text-xl text-gray-400 ">|</div>
                     <div className="z-10">
-                        <DropDown list={categories} selected={category} setSelected={setCategory} />
+                        <CategoriesDropDown selected={category} setSelected={setCategory} />
                     </div>
                 </div>
             </div>
+        );
+    };
+
+    const CategoriesDropDown = ({ selected, setSelected }: any) => {
+        let data = careerpaths.map((item) => { return ({ name: item, id: item }) });
+        data = [{ name: "All", id: "All" }, ...data];
+
+        return (
+            <DropDown
+                list={data}
+                selected={selected}
+                isLoading={"Loading"}
+                setSelected={setSelected}
+            />
         );
     };
 
@@ -97,21 +131,23 @@ export default function Catalog() {
                             searchText={searchText}
                         />
                         <div className="flex flex-col my-10">
-                            <h1 className="text-2xl font-bold mb-10">Our most popular courses</h1>
+                            <h1 className="text-2xl font-bold mb-10">Follow Our Career Paths</h1>
                             <div className="flex flex-col justify-center w-full items-center">
                                 <div className="flex w-full justify-center">
                                     <div className="grid xl:grid-cols-4 lg:grid-cols-2 grid-cols-1 gap-5 max-w-7xl h-full transition-all duration-500">
-                                        {popular.map((skill, i) => {
-                                            return (
-                                                <div key={i} className="flex flex-col max-w-sm w-full border-2 bg-gray-100 p-5 flex-shrink-0 rounded-md">
-                                                    <img src={skill.image} className="h-full max-h-48 min-h-48 w-full rounded-md" />
-                                                    <div className="flex flex-col h-full align-bottom mt-10">
-                                                        <h1 className="text-2xl font-bold mb-3">{skill.title}</h1>
-                                                        <p className="line-clamp-2">{skill.description}</p>
-                                                        <Link href={skill.link} className=" px-3 py-2 bg-blue-600 w-max rounded-md text-white font-semibold mt-5 flex group">Start Course <ArrowRightIcon className="w-6 ml-2 -translate-x-2 group-hover:translate-x-0 transition-all duration-500" /></Link>
+                                        {Courses.map((skill, i) => {
+                                            if(skill.type=="skillpath"){
+                                                return (
+                                                    <div key={i} className="flex flex-col max-w-sm w-full border-2 bg-gray-100 p-5 flex-shrink-0 rounded-md">
+                                                        <img src={skill.image} className="h-full max-h-48 min-h-48 w-full rounded-md" />
+                                                        <div className="flex flex-col h-full align-bottom mt-10">
+                                                            <h1 className="text-xl font-semibold mb-3">{skill.title}</h1>
+                                                            <p className="line-clamp-4 text-gray-500">{skill.description}</p>
+                                                            <Link href={skill.link} className="w-max rounded-md underline text-blue-700 font-semibold mt-5 flex group">Show More</Link>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            );
+                                                );
+                                            }
                                         })}
                                     </div>
                                 </div>
@@ -128,14 +164,14 @@ export default function Catalog() {
                         <div className="flex flex-col justify-center w-full items-center">
                             <div className="flex w-full justify-center">
                                 <div className="grid xl:grid-cols-4 lg:grid-cols-2 grid-cols-1 gap-5 max-w-7xl h-full transition-all duration-500">
-                                    {Courses.map((skill, i) => {
+                                    {courses.map((skill: any, i: any) => {
                                         return (
                                             <div key={i} className="flex flex-col max-w-sm w-full border-2 bg-gray-100 p-5 flex-shrink-0 rounded-md">
                                                 <img src={skill.image} className="h-full max-h-48 min-h-48 w-full rounded-md" />
                                                 <div className="flex flex-col h-full align-bottom mt-10">
-                                                    <h1 className="text-2xl font-bold mb-3">{skill.title}</h1>
-                                                    <p className="line-clamp-2">{skill.description}</p>
-                                                    <Link href={skill.link} className=" px-3 py-2 bg-blue-600 w-max rounded-md text-white font-semibold mt-5 flex group">Start Course <ArrowRightIcon className="w-6 ml-2 -translate-x-2 group-hover:translate-x-0 transition-all duration-500" /></Link>
+                                                    <h1 className="text-xl font-semibold mb-3">{skill.title}</h1>
+                                                    <p className="line-clamp-4 text-gray-500">{skill.description}</p>
+                                                    <Link href={skill.link} className="w-max rounded-md underline text-blue-700 font-semibold mt-5 flex group">Show More</Link>
                                                 </div>
                                             </div>
                                         );

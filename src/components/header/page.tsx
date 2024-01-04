@@ -98,7 +98,7 @@ function Header() {
                   className={`group cursor-pointer block py-5 pl-3 pr-4  border-b border-gray-100 hover:bg-gray-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 ${textColor} `}
                 >
                   <Link href="/courses">Skill Programmes</Link>
-                  <div className="relative invisible group-hover:visible">
+                  <div className="relative invisible group-hover:visible z-20">
                     <ul className="flex flex-col absolute top-0 px-2 py-2 font-normal w-max border-2 bg-white text-black rounded-b-lg">
                       {Courses.map((skills, i) => {
                         return (

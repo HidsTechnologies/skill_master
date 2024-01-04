@@ -2,15 +2,12 @@ import React, { Fragment } from "react";
 import { Listbox, Transition } from "@headlessui/react";
 import { CheckIcon, ChevronDownIcon } from "@heroicons/react/20/solid";
 
-export default function DropDown(props:any) {
-  const { list, selected, setSelected} = props;
-  const handleSelect = (item:any) => {
-    setSelected(item);
-  };
+export default function DropDown(props:any){
+  const { list, selected, setSelected, isLoading } = props;
 
   return (
-    <div className="w-40">
-      <Listbox value={selected} by={"id"} onChange={handleSelect}>
+    <div className="w-64">
+      <Listbox value={selected} by={"id"} onChange={setSelected}>
         <div className="relative mt-1">
           <Listbox.Button className="relative w-full cursor-default rounded-lg bg-white py-2 pl-3 pr-10 text-left focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-green-300 sm:text-sm">
             <span className="block truncate">{selected}</span>

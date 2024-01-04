@@ -29,10 +29,10 @@ export default function CourseSection() {
                                 return (
                                     <div key={i} className="flex flex-col max-w-sm w-full border-2 bg-gray-100 p-5 flex-shrink-0 rounded-md">
                                         <img src={skill.image} className="h-full max-h-48 min-h-48 w-full rounded-md" />
-                                        <div className="flex flex-col h-full align-bottom mt-10">
-                                            <h1 className="text-2xl font-bold mb-3">{skill.title}</h1>
-                                            <p className="line-clamp-2">{skill.description}</p>
-                                            <Link href={skill.link} className=" px-3 py-2 bg-blue-600 w-max rounded-md text-white font-semibold mt-5 flex group">Start Course <ArrowRightIcon className="w-6 ml-2 -translate-x-2 group-hover:translate-x-0 transition-all duration-500" /></Link>
+                                        <div className="flex flex-col h-full align-bottom mt-5">
+                                            <h1 className="text-xl font-semibold mb-3">{skill.title}</h1>
+                                            <p className="line-clamp-4 text-gray-500 text-md">{skill.description}</p>
+                                            <Link href={skill.link} className="w-max rounded-md underline text-blue-700 font-semibold mt-5 flex group">Show More</Link>
                                         </div>
                                     </div>
                                 );
