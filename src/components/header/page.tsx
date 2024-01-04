@@ -41,7 +41,7 @@ function Header() {
           <div className="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto">
             <Link href="/" className="flex items-center">
               <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-                Skill Master
+                <span className="text-4xl">S</span>kill<span className="text-4xl">M</span>aster
               </span>
             </Link>
             <div className="flex items-center lg:order-2">

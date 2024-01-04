@@ -3,7 +3,7 @@ import { Listbox, Transition } from "@headlessui/react";
 import { CheckIcon, ChevronDownIcon } from "@heroicons/react/20/solid";
 
 export default function DropDown(props:any) {
-  const { list, selected, setSelected, isLoading } = props;
+  const { list, selected, setSelected} = props;
   const handleSelect = (item:any) => {
     setSelected(item);
   };

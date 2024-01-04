@@ -2,6 +2,7 @@ import Header from "@/components/header/page";
 import Link from "next/link";
 import Courses from '@/db/courses.json';
 import Footer from "@/components/footer/page";
+import { ArrowRightIcon } from "@heroicons/react/20/solid";
 
 export default function workshop() {
     return (
@@ -14,15 +15,15 @@ export default function workshop() {
             <div className="flex flex-col justify-center w-full items-center my-10">
                 <h1 className="text-4xl mb-10 font-semibold">Upcoming Events</h1>
                 <div className="flex w-full justify-center">
-                    <div className="grid xl:grid-cols-4 lg:grid-cols-2 grid-cols-1 gap-5 max-w-7xl h-full transition-all duration-500 gap-y-10">
+                    <div className="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-5 max-w-7xl h-full transition-all duration-500">
                         {Courses.map((skill, i) => {
                             return (
-                                <div key={i} className="flex flex-col w-full border-2 bg-gray-100">
-                                    <img src={skill.image} className="h-52 w-full" />
-                                    <div className="flex flex-col h-full p-5">
+                                <div key={i} className="flex flex-col max-w-sm w-full border-2 bg-gray-100 p-5 flex-shrink-0 rounded-md">
+                                    <img src={skill.image} className="h-full max-h-48 min-h-48 w-full rounded-md" />
+                                    <div className="flex flex-col h-full align-bottom mt-10">
                                         <h1 className="text-2xl font-bold mb-3">{skill.title}</h1>
                                         <p className="line-clamp-2">{skill.description}</p>
-                                        <Link href={skill.link} className="w-full underline text-right text-gray-600">show more</Link>
+                                        <Link href={skill.link} className=" px-3 py-2 bg-blue-600 w-max rounded-md text-white font-semibold mt-5 flex group">View Event <ArrowRightIcon className="w-6 ml-2 -translate-x-2 group-hover:translate-x-0 transition-all duration-500" /></Link>
                                     </div>
                                 </div>
                             );
@@ -33,15 +34,15 @@ export default function workshop() {
             <div className="flex flex-col justify-center w-full items-center my-10">
                 <h1 className="text-4xl mb-10 font-semibold">Past Events</h1>
                 <div className="flex w-full justify-center">
-                    <div className="grid xl:grid-cols-4 lg:grid-cols-2 grid-cols-1 gap-5 max-w-7xl h-full transition-all duration-500 gap-y-10">
+                    <div className="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-5 max-w-7xl h-full transition-all duration-500">
                         {Courses.map((skill, i) => {
                             return (
-                                <div key={i} className="flex flex-col w-full px-10 py-10 gap-x-5 rounded-2xl border-2 bg-gray-100">
-                                    <img src={skill.image} className="h-32 w-40" />
-                                    <div className="flex flex-col h-full justify-end">
+                                <div key={i} className="flex flex-col max-w-sm w-full border-2 bg-gray-100 p-5 flex-shrink-0 rounded-md">
+                                    <img src={skill.image} className="h-full max-h-48 min-h-48 w-full rounded-md" />
+                                    <div className="flex flex-col h-full align-bottom mt-10">
                                         <h1 className="text-2xl font-bold mb-3">{skill.title}</h1>
                                         <p className="line-clamp-2">{skill.description}</p>
-                                        <Link href={skill.link} className="w-full underline text-right text-gray-600">show more</Link>
+                                        <Link href={skill.link} className=" px-3 py-2 bg-blue-600 w-max rounded-md text-white font-semibold mt-5 flex group">View Event <ArrowRightIcon className="w-6 ml-2 -translate-x-2 group-hover:translate-x-0 transition-all duration-500" /></Link>
                                     </div>
                                 </div>
                             );
@@ -49,7 +50,7 @@ export default function workshop() {
                     </div>
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </div>
     );
 }

@@ -15,8 +15,8 @@ export default function About() {
                 </div>
             </div>
             <div className='my-10 flex flex-col justify-center items-center mx-10'>
-                <h1 className='sm:text-4xl text-2xl font-semibold'>About <span className='text-[#967259]'>Skill Master</span></h1>
-                <h1 className='my-10 text-xl max-w-5xl text-center'>Skill Master Academy is one of the leading Skill development platforms which offers various industrial courses in association with top-notch industries like Ashok Leyland, TVS, Ultratech, Bosch Rexroth, BOSCH and leading Universities like Centurion University, CV Raman Global University. We have trained over 1 Lakhs students in its various programs.</h1>
+                <h1 className='sm:text-4xl text-2xl font-semibold'>About <span className='text-[#967259]'>SkillMaster</span></h1>
+                <h1 className='my-10 text-xl max-w-5xl text-center'>SkillMaster Academy is one of the leading Skill development platforms which offers various industrial courses in association with top-notch industries like Ashok Leyland, TVS, Ultratech, Bosch Rexroth, BOSCH and leading Universities like Centurion University, CV Raman Global University. We have trained over 1 Lakhs students in its various programs.</h1>
                 <h1 className='text-4xl font-semibold'>Our Motto</h1>
                 <div className='bg-blue-500 flex p-10 rounded-2xl justify-center items-center my-10'>
                     <Image src="/quote_top.png" alt="quote-top" height={50} width={100} className='h-10 w-10' />

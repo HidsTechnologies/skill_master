@@ -7,8 +7,8 @@ const Footer = () => {
         <div className="bg-gray-800 w-full h-min items-center justify-center flex flex-col text-white">
             <div className="grid xl:grid-cols-4 2xl:grid-cols-4 grid-cols-1 md:px-20 py-20">
                 <div className="flex flex-col w-80 px-10">
-                    <h1 className="text-2xl font-bold">Skill Master</h1>
-                    <p className="text-[#635f76] mt-2">Learn new Industrial skills and upskill in your career with Skill Master courses, that provide you with the best education.</p>
+                    <h1 className="text-2xl font-bold">SkillMaster</h1>
+                    <p className="text-[#635f76] mt-2">Learn new Industrial skills and upskill in your career with SkillMaster courses, that provide you with the best education.</p>
                     <div className="grid grid-cols-4 gap-8 py-5 mt-2">
                         <a href="https://www.youtube.com" className="youtube"><FontAwesomeIcon icon={faYoutube} size="2x" /></a>
                         <a href="https://www.facebook.com" className="facebook"><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
