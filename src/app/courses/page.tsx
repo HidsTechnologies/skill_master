@@ -16,7 +16,7 @@ export default function Catalog() {
     const [searchText, setSearchText] = useState("");
 
 
-    const MobileSearchBar = ({ setSearchText, searchText, category, setCategory }) => (
+    const MobileSearchBar = ({ setSearchText, searchText, category, setCategory }:any) => (
         <div className=" sm:hidden flex flex-col items-center mt-10">
             <div className="flex w-min shadow-md border-2 rounded-md mb-2">
                 <div className="px-2 flex">
@@ -45,7 +45,7 @@ export default function Catalog() {
         </div>
     );
 
-    const SearchBar = ({ setSearchText, searchText, category, setCategory }) => {
+    const SearchBar = ({ setSearchText, searchText, category, setCategory }:any) => {
         return (
             <div className=" hidden sm:flex  w-full px-5 justify-center items-center mt-10">
                 <div className="flex  w-min shadow-md border-2 rounded-md ">
